@@ -13,7 +13,8 @@ if st.button("Interpret Dream"):
     if dream_input:
         # Initialize the Anthropic client
         client = anthropic.Anthropic(
-            api_key=os.environ.get("ANTHROPIC_API_KEY")
+            api_key="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"
+            #api_key=os.environ.get("ANTHROPIC_API_KEY")
         )
 
         # Create the message for interpretation
